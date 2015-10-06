@@ -1,0 +1,17 @@
+{
+    "server": {
+        "socket": "localhost:8080"
+    },
+    "livereload": {
+        "host": "localhost",
+        "port": 8081
+    },
+    "babel": {
+        "comments": false,
+        "compact": true,
+        "stage": 2
+    },
+    "jspm": {
+        "minify": false
+    }
+}

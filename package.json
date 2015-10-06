@@ -1,0 +1,50 @@
+{
+  "name": "react-render-service",
+  "version": "0.0.1",
+  "description": "HTML template rendering server with React",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "html",
+    "templating",
+    "rendering",
+    "prerender"
+  ],
+  "author": "Daniel Gabriele",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "config": "^1.16.0",
+    "del": "^2.0.2",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-changed": "^1.3.0",
+    "gulp-exec": "^2.1.2",
+    "gulp-ignore": "^2.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-util": "^3.0.6",
+    "jade": "^1.11.0",
+    "jspm": "^0.16.11",
+    "livereload": "^0.3.7",
+    "react": "^0.13.3",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.4"
+  },
+  "jspm": {
+    "configFile": "jspm.config.js",
+    "dependencies": {
+      "babel-core": "npm:babel-core@^5.8.25",
+      "react": "npm:react@^0.13.3",
+      "react-router": "npm:react-router@^1.0.0-rc1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
