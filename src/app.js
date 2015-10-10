@@ -1,6 +1,7 @@
 import express from 'express';
 import config from 'config';
 import bodyParser from 'body-parser';
+import fs from 'fs';
 import routes from './routes';
 
 var app = express()
@@ -18,7 +19,7 @@ if (config.has('server.socket')) {
             console.log(`Listening on http://${socket}...`)
         });
     } else {
-        fs.unlink(sock, () => {
+        fs.unlink(socket, () => {
             app.listen(socket, () => {
                 console.log(`Listening on domain socket ${socket}...`)
             });

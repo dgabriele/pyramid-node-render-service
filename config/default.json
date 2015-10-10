@@ -1,6 +1,6 @@
 {
     "server": {
-        "socket": "localhost:8080"
+        "socket": "/tmp/react.sock"
     },
     "livereload": {
         "host": "localhost",
